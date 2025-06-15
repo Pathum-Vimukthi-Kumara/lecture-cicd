@@ -13,3 +13,4 @@ jobs:
         run: ls
        - name: gradlew
         run :  ./gradlew test
+        run :pwd
