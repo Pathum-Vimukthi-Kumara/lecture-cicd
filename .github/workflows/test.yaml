@@ -7,5 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Hello World
-        run: echo "Hello World"
+        uses: actions/checkout@v4
 
+       - name:list of the file
+        run: ls
+       - name: gradlew
+        run :  ./gradlew test
